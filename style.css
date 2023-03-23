@@ -1,0 +1,20 @@
+:root{
+    --fundo: rgb(204, 204, 204);
+    --fundoCalc: rgb(255, 255, 255);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--fundo);
+}
+section.calculadora{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    background-color: var(--fundoCalc);
+}
